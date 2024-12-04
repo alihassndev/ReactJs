@@ -9,6 +9,13 @@ function App() {
   const Increase = () => {
     ++counter;
     setCounter(counter);
+    ++counter;
+    ++counter;
+    ++counter;
+    ++counter;
+    // alternate of above if that not works then directly do it with call back
+    // setCounter(prevCounter => prevCounter+1)
+    setCounter(counter);
     console.log(`click! counter: ${counter}`);
   };
 
