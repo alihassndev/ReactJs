@@ -1,0 +1,113 @@
+body {
+  background-color: #212121;
+  height: 100vh;
+  color: white;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+#root {
+  position: relative;
+  top: 0;
+}
+nav {
+  margin-top: 0;
+  background-color: #343434;
+}
+
+.hero {
+  width: 80vw;
+  margin: auto;
+}
+
+nav > ul {
+  display: flex;
+  padding: 1.5rem 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+nav > ul li {
+  list-style-type: none;
+}
+
+nav > ul a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+nav > ul > a:hover {
+  transform: scale(1.1);
+}
+
+.food,
+.box {
+  margin: auto;
+  margin-top: 5rem;
+  width: 80vw;
+}
+
+.cards {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 12rem;
+  border: 1px solid rgb(164, 164, 164);
+  overflow: hidden;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 5px 3px 5px rgb(82, 82, 82);
+  margin-top: 2rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.card img {
+  height: 190px;
+  width: 12rem;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+.card h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+footer {
+  margin-top: 4rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.1rem;
+  background-color: #343434;
+  padding: 0.8rem 0;
+}
