@@ -1,12 +1,20 @@
-"use strict";
+import { useState, useEffect, useRef } from "react";
 
-function Hassan() {
+function PreviousValue() {
+  const [count, setCount] = useState(0);
+  const prevCountRef = useRef();
+
+  useEffect(() => {
+    prevCountRef.current = count;
+  }, [count]);
+
   return (
-    <>
-      <h2>Hello! Hassan. How are you?</h2>
-      <p>What do you do?</p>
-    </>
+    <div>
+      <h1>Current: {count}</h1>
+      <h2>Previous: {prevCountRef.current}</h2>
+      <button onClick={() => setCount((count) => ++count)}>Increment</button>
+    </div>
   );
 }
 
-export default Hassan;
+export default PreviousValue;

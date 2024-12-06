@@ -1,15 +1,14 @@
-import Ali from "./test";
+import { useRef } from "react";
 
-function App() {
-  const username = "ali";
+function InputReturn() {
+  const inputRef = useRef();
+
   return (
-    <>
-      <Ali />
-      <h1>Hello! {username}</h1>
-      <h1>Start React Journey with Vite</h1>
-      <p className="read-the-docs">Ali Hassan Start Learning ReactJs</p>
-    </>
+    <div>
+      <input ref={inputRef} />
+      <button onClick={() => inputRef.current.focus()}>Focus Input</button>
+    </div>
   );
 }
 
-export default App;
+export default InputReturn;
