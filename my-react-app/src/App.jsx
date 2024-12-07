@@ -2,8 +2,10 @@ import Header from "./header";
 import Footer from "./footer";
 import Food from "./food";
 import Card from "./card";
+import Button from "./button";
 // import UserGreeting from "./userGreeting";
 import List from "./list";
+import Profile from "./profile";
 
 function App() {
   const fruits = [
@@ -47,6 +49,10 @@ function App() {
           />
 
           <Card url="https://images.pexels.com/photos/1212487/pexels-photo-1212487.jpeg?auto=compress&cs=tinysrgb&w=600" />
+
+          <Profile />
+
+          <Button />
         </div>
 
         {/* <UserGreeting isLoggedIn={true} username="Ali" /> */}

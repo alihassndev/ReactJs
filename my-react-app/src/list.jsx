@@ -45,7 +45,7 @@ function List({ items = [], category = "Category" }) {
 }
 
 List.propTypes = {
-  items: PropTypes.arrayof(
+  items: PropTypes.arrayOf(
     PropTypes.shape({ name: PropTypes.string, caleroies: PropTypes.number })
   ),
   category: PropTypes.string,
