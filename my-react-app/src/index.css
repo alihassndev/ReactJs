@@ -99,6 +99,17 @@ nav > ul > a:hover {
   border-radius: 5px;
   cursor: pointer;
   border: none;
+  transition: all 0.3s ease;
+  margin-top: 2rem;
+}
+
+.button:hover {
+  background-color: hsl(220, 100%, 50%);
+}
+
+.list {
+  width: 80vw;
+  margin: 2rem auto;
 }
 
 footer {
