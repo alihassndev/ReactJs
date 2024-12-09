@@ -122,3 +122,28 @@ footer {
   background-color: #343434;
   padding: 0.8rem 0;
 }
+.updateList {
+  width: 80vw;
+  margin: auto;
+  padding: 1rem 0.5rem;
+  margin-top: 2rem;
+}
+form {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+form button {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+form input {
+  padding: 0.4rem 0;
+}
+.test {
+  width: 80vw;
+  margin: 2rem auto;
+}

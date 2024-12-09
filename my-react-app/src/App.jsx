@@ -6,6 +6,9 @@ import Button from "./button";
 // import UserGreeting from "./userGreeting";
 import List from "./list";
 import Profile from "./profile";
+import MyComponent from "./myComponent";
+import UpdateList from "./updateList";
+import ArrayObject from "./test";
 
 function App() {
   const fruits = [
@@ -56,7 +59,12 @@ function App() {
         </div>
 
         {/* <UserGreeting isLoggedIn={true} username="Ali" /> */}
+        <MyComponent />
       </div>
+
+      <UpdateList />
+
+      <ArrayObject />
 
       {fruits.length > 0 && <List items={fruits} category="Fruit" />}
       {vegetable.length > 0 && <List items={vegetable} category="Vegetable" />}
