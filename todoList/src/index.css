@@ -1,0 +1,93 @@
+body {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.todo {
+  padding: 2rem;
+  background-color: rgb(227, 186, 136);
+  width: 40vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  padding: 0.8rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+button {
+  font-size: 1.1rem;
+  padding: 0.8rem 2rem;
+  outline: none;
+  border: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+
+.todo ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.todo li {
+  width: 80%;
+  margin: 0;
+  list-style: none;
+  margin: 0.5rem auto;
+  padding: 1rem;
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  border-radius: 1rem;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+.btn {
+  padding: 0;
+  background-color: transparent;
+}
+.first {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content {
+  margin-top: 1rem;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
