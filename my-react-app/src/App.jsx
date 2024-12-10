@@ -9,6 +9,7 @@ import Profile from "./profile";
 import MyComponent from "./myComponent";
 import UpdateList from "./updateList";
 import ArrayObject from "./test";
+import Effect from "./effect";
 
 function App() {
   const fruits = [
@@ -60,6 +61,7 @@ function App() {
 
         {/* <UserGreeting isLoggedIn={true} username="Ali" /> */}
         <MyComponent />
+        <Effect />
       </div>
 
       <UpdateList />
