@@ -9,7 +9,8 @@ import Profile from "./profile";
 import MyComponent from "./myComponent";
 import UpdateList from "./updateList";
 import ArrayObject from "./test";
-import WindowPosition from "./window";
+// import WindowPosition from "./window";
+import Context from "./context";
 // import Effect from "./effect";
 
 function App() {
@@ -63,7 +64,7 @@ function App() {
         {/* <UserGreeting isLoggedIn={true} username="Ali" /> */}
         <MyComponent />
         {/* <Effect /> */}
-        <WindowPosition />
+        {/* <WindowPosition /> */}
       </div>
 
       <UpdateList />
@@ -73,6 +74,7 @@ function App() {
       {fruits.length > 0 && <List items={fruits} category="Fruit" />}
       {vegetable.length > 0 && <List items={vegetable} category="Vegetable" />}
 
+      <Context />
       <Footer />
     </>
   );
