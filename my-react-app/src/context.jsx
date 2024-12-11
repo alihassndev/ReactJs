@@ -4,7 +4,8 @@ import Context2 from "./context2";
 export const userContext = createContext();
 
 function Context() {
-  const [user, setUser] = useState("Ali");
+  // eslint-disable-next-line no-unused-vars
+  const [user, setUser] = useState("Ali Hassan");
 
   return (
     <>

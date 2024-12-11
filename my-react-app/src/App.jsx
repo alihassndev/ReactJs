@@ -11,6 +11,7 @@ import UpdateList from "./updateList";
 import ArrayObject from "./test";
 // import WindowPosition from "./window";
 import Context from "./context";
+import Reference from "./reference";
 // import Effect from "./effect";
 
 function App() {
@@ -75,6 +76,7 @@ function App() {
       {vegetable.length > 0 && <List items={vegetable} category="Vegetable" />}
 
       <Context />
+      <Reference />
       <Footer />
     </>
   );
