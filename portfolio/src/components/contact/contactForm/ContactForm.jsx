@@ -53,7 +53,7 @@ function ContactForm() {
       className="flex flex-col justify-center items-center gap-6 text-black"
       onSubmit={handleSubmit}
     >
-      <div className="w-full flex justify-center items-center gap-4">
+      <div className="w-full flex flex-col lg:flex-row justify-center items-center gap-4">
         <input
           className="flex-1 p-3 rounded-md outline-none"
           type="text"
