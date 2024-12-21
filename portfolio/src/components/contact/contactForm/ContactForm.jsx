@@ -75,7 +75,7 @@ function ContactForm() {
       </div>
       <div className="w-full flex">
         <input
-          className="flex-1 p-3 rounded-md outline-none"
+          className="w-full p-3 rounded-md outline-none"
           type="email"
           name="email"
           placeholder="Email"
