@@ -38,7 +38,7 @@ function ContactForm() {
       .then(
         (response) => {
           console.log("Email sent successfully:", response);
-          alert("Message sent successfully!");
+          alert("Thank you for reaching me out. I'll get back to you soon!");
           setFormData({ firstName: "", lastName: "", email: "", message: "" }); // Clear form
         },
         (error) => {

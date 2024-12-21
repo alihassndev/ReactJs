@@ -35,7 +35,8 @@ function Navbar() {
               </li>
               <a
                 className="border py-1.5 px-4 rounded-lg bg-purple-600 text-white border-purple-600 hover:bg-transparent transition-all duration-300"
-                href="#hire"
+                href="mailto:alihassndev@gmail.com"
+                target="_blank"
               >
                 Hire Me
               </a>
@@ -84,8 +85,8 @@ function Navbar() {
               </a>
             </li>
             <a
-              className="border py-2 px-4 rounded-lg bg-puple-600 text-white border-purple-600 hover:bg-purple-600 hover:text-white transition-all duration-300 w-full text-center"
-              href="#hire"
+              className="border py-2 px-4 rounded-lg bg-purple-600 text-white border-purple-600 hover:bg-purple-700 hover:text-white transition-all duration-300 w-full text-center"
+              href="mailto:alihassndev@gmail.com"
               onClick={toggleMenu}
             >
               Hire Me
