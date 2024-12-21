@@ -7,12 +7,12 @@ function SkillCard({ title, iconUrl, isActive, onclick }) {
       <div
         className={`${
           isActive ? "active" : ""
-        } border border-blue-600 flex justify-center items-center py-6 lg:p-10 relative cursor-pointer text-center rounded-lg transition-all duration-300 hover:bg-blue-600 group`}
+        } border border-purple-600 flex justify-center items-center py-6 lg:p-10 relative cursor-pointer text-center rounded-lg transition-all duration-300 hover:bg-purple-600 group`}
         onClick={() => onclick()}
       >
         <div>
           <img
-            className="bg-blue-300 w-10 lg:w-16 lg:h-16 p-2 rounded-md absolute -left-4 -top-6 group-hover:bg-blue-100 transition-all duration-300"
+            className="bg-purple-300 w-10 lg:w-16 lg:h-16 p-2 rounded-md absolute -left-4 -top-6 group-hover:bg-purple-100 transition-all duration-300"
             src={iconUrl}
             alt={title}
           />

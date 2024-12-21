@@ -16,7 +16,7 @@ function Skills() {
         <h2 className="text-2xl font-semibold">Technical Proficiency</h2>
 
         <div className="w-full flex flex-col lg:flex-row justify-between items-start gap-10">
-          <div className="flex-1 w-full grid grid-cols-2 gap-10 order-2 lg:order-1">
+          <div className="flex-1 w-full grid grid-cols-2 gap-10 order-2 lg:order-1 lg:px-10">
             {SkILLS.map((item) => (
               <SkillCard
                 key={item.title}

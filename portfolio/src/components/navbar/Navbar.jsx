@@ -34,7 +34,7 @@ function Navbar() {
                 <a href="#contact">Contact Me</a>
               </li>
               <a
-                className="border py-1.5 px-4 rounded-lg bg-blue-600 text-white border-blue-600 hover:bg-transparent transition-all duration-300"
+                className="border py-1.5 px-4 rounded-lg bg-purple-600 text-white border-purple-600 hover:bg-transparent transition-all duration-300"
                 href="#hire"
               >
                 Hire Me
@@ -44,7 +44,7 @@ function Navbar() {
           {/* Mobile Menu Icon */}
           <div className="lg:hidden flex items-center">
             <button onClick={toggleMenu} className="text-2xl">
-              <i className="ri-menu-4-line bg-blue-600 p-2 rounded-md"></i>
+              <i className="ri-menu-4-line bg-purple-600 p-2 rounded-md"></i>
             </button>
           </div>
         </div>
@@ -59,7 +59,7 @@ function Navbar() {
               <a href="/">Ali Hassan</a>
             </div>
             <button onClick={toggleMenu} className="text-2xl">
-              <i className="ri-close-line p-2 rounded-md bg-blue-600"></i>
+              <i className="ri-close-line p-2 rounded-md bg-purple-600"></i>
             </button>
           </div>
           <ul className="flex flex-col items-start justify-center gap-10 mt-6 p-6">
@@ -84,7 +84,7 @@ function Navbar() {
               </a>
             </li>
             <a
-              className="border py-2 px-4 rounded-lg bg-blue-600 text-white border-blue-600 hover:bg-white hover:text-blue-600 transition-all duration-300 w-full text-center"
+              className="border py-2 px-4 rounded-lg bg-puple-600 text-white border-purple-600 hover:bg-purple-600 hover:text-white transition-all duration-300 w-full text-center"
               href="#hire"
               onClick={toggleMenu}
             >

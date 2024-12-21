@@ -2,6 +2,10 @@ import frontend from "../assets/frontend.png";
 import backend from "../assets/backend.png";
 import tools from "../assets/tools.png";
 import soft from "../assets/soft.png";
+import profile1 from "../assets/test1.png";
+import profile2 from "../assets/test2.png";
+import profile3 from "../assets/test3.png";
+import profile4 from "../assets/test4.png";
 
 export const SkILLS = [
   {
@@ -73,5 +77,32 @@ export const WORK = [
       "Ensure seamless integration of frontend and backend systems.",
       "Troubleshoot and optimize performance across the full stack.",
     ],
+  },
+];
+
+export const TEST = [
+  {
+    name: "James Miller",
+    imgUrl: profile1,
+    review:
+      "Your work as a frontend developer was exceptional. The UI is visually stunning, responsive, and highly functional. Your attention to detail, adherence to best practices, and seamless collaboration made the project a success. Highly recommended!",
+  },
+  {
+    name: "Emma Davis",
+    imgUrl: profile3,
+    review:
+      "Excellent work! The interface is clean, responsive, and user-friendly. Your expertise in modern frameworks and attention to detail ensured a polished final product. Truly a professional job!",
+  },
+  {
+    name: "William Taylor",
+    imgUrl: profile2,
+    review:
+      "Outstanding job! The backend is robust, efficient, and seamlessly integrated with the frontend. Your attention to scalability and security demonstrates true expertise. Highly recommend your work!",
+  },
+  {
+    name: "Charlotte Moore",
+    imgUrl: profile4,
+    review:
+      "Impressive work! You delivered a seamless full-stack solution with a polished frontend and a reliable, efficient backend. Your ability to manage both ends with such expertise is remarkable. Highly recommended!",
   },
 ];

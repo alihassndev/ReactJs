@@ -9,12 +9,12 @@ import tailwind from "../../assets/tailwind.png";
 function Hero() {
   return (
     <>
-      <div className="mt-24 h-auto lg:h-[85vh] px-10 w-full lg:w-[80vw] mx-auto flex flex-col lg:flex-row gap-10 justify-center items-center">
+      <div className="mt-36 lg:mt-24 h-auto lg:h-[85vh] px-10 w-full lg:w-[80vw] mx-auto flex flex-col lg:flex-row gap-10 justify-center items-center">
         <div className="flex-1">
           <h2 className="lg:text-6xl text-4xl font-semibold leading-tight">
             Building Digital Experience That Inspire.
           </h2>
-          <p className="lg:text-2xl text-lg mt-3 leading-snug w-[90%]">
+          <p className="lg:text-2xl font-light text-lg mt-3 leading-snug w-[90%]">
             <strong>Passionate Frontend Developer</strong> | Transforming ideas
             into seamless and visually stunning <strong>Web Solutions</strong>
           </p>
