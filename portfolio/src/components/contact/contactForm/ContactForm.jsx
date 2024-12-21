@@ -50,12 +50,12 @@ function ContactForm() {
 
   return (
     <form
-      className="flex flex-col justify-center items-center gap-6 text-black"
+      className="flex w-full flex-col justify-center items-center gap-6 text-black"
       onSubmit={handleSubmit}
     >
-      <div className="w-full flex flex-col lg:flex-row justify-center items-center gap-4">
+      <div className="w-full flex flex-col md:flex-row justify-center items-center gap-4">
         <input
-          className="flex-1 p-3 rounded-md outline-none"
+          className="flex-1 w-full p-3 rounded-md outline-none"
           type="text"
           name="firstName"
           placeholder="First Name"
@@ -64,7 +64,7 @@ function ContactForm() {
           required
         />
         <input
-          className="flex-1 p-3 rounded-md outline-none"
+          className="flex-1 w-full p-3 rounded-md outline-none"
           type="text"
           name="lastName"
           placeholder="Last Name"

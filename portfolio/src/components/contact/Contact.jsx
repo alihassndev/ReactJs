@@ -8,7 +8,7 @@ function Contact() {
         <h2 className="text-2xl font-semibold">Contact Me</h2>
 
         <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
-          <div className="flex-1 flex flex-col justify-center gap-6 text-sm p-10">
+          <div className="flex-1 w-full flex flex-col justify-center gap-6 text-sm p-10">
             <a href="mailto:alihassndev@gmail.com" target="_blank">
               <ContactCard
                 iconUrl="ri-mail-line"
@@ -32,7 +32,7 @@ function Contact() {
               />
             </a>
           </div>
-          <div className="flex-1 py-14 px-10 bg-gradient-to-r from-blue-900 to-purple-900 rounded-xl">
+          <div className="flex-1 w-full py-14 px-10 bg-gradient-to-r from-blue-900 to-purple-900 rounded-xl p-10">
             <ContactForm />
           </div>
         </div>
