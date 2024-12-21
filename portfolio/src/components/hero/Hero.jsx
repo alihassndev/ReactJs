@@ -46,7 +46,11 @@ function Hero() {
               </div>
             </div>
 
-            <img className="w-96 rounded-xl" src={ali} alt="ali" />
+            <img
+              className="w-96 rounded-xl hover:-translate-y-1 transition-all duration-300"
+              src={ali}
+              alt="ali"
+            />
           </div>
 
           <div className="flex justify-center gap-6">

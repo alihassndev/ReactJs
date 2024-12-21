@@ -12,6 +12,7 @@ export const SkILLS = [
       { skill: "CSS", percentage: "85%" },
       { skill: "JavaScript", percentage: "75%" },
       { skill: "React Js", percentage: "75%" },
+      { skill: "TypeScript", percentage: "70%" },
     ],
   },
   {
@@ -39,6 +40,38 @@ export const SkILLS = [
       { skill: "Problem Solving", percentage: "80%" },
       { skill: "Collaboration", percentage: "85%" },
       { skill: "Attention to Detail", percentage: "75%" },
+    ],
+  },
+];
+
+export const WORK = [
+  {
+    title: "Frontend Developer on fiverr",
+    date: "Feb 2024 - Present",
+    responsibilities: [
+      "Build responsive and visually appealing user interfaces.",
+      "Ensure cross-browser and device compatibility.",
+      "Collaborate with designers and backend developers.",
+    ],
+  },
+  {
+    title: "Backend Developer on fiverr",
+    date: "Aug 2024 - Present",
+    responsibilities: [
+      "Develop and maintain server-side logic and APIs.",
+      "Manage databases and ensure data integrity.",
+      "Optimize application performance and scalability.",
+      "Implement security measures to protect data and systems.",
+    ],
+  },
+  {
+    title: "Fullstack Developer on fiverr",
+    date: "Dec 2024 - Present",
+    responsibilities: [
+      "Develop both client-side (frontend) and server-side (backend) applications.",
+      "Design and manage databases for efficient data storage.",
+      "Ensure seamless integration of frontend and backend systems.",
+      "Troubleshoot and optimize performance across the full stack.",
     ],
   },
 ];

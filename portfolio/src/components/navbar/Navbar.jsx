@@ -64,7 +64,7 @@ function Navbar() {
           </div>
           <ul className="flex flex-col items-start justify-center gap-10 mt-6 p-6">
             <li>
-              <a href="#home" onClick={toggleMenu}>
+              <a href="/" onClick={toggleMenu}>
                 Home
               </a>
             </li>
