@@ -17,7 +17,7 @@ function TestCard({ profile }) {
           <h3 className="font-semibold">{profile.name}</h3>
         </div>
         {/* eslint-disable-next-line react/prop-types*/}
-        <p className="text-base text-center">{profile.review}</p>
+        <p className="text-xs md:text-base md:text-center">{profile.review}</p>
       </div>
     </>
   );
