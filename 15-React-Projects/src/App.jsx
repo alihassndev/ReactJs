@@ -1,10 +1,11 @@
-import "./App.css";
-import Accordion from "./Components/Accordion/Accordion";
+import Accord from "./Components/Accordion/Accord";
 
 function App() {
   return (
     <>
-      <Accordion />
+      <div className="w-full min-h-screen flex justify-center items-center">
+        <Accord />
+      </div>
     </>
   );
 }

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import data from "./data";
+import DATA from "./DATA";
 import "./accordion.css";
 
 function Accordion() {
@@ -40,8 +40,8 @@ function Accordion() {
       </button>
 
       <div className="accordion">
-        {data && data.length > 0 ? (
-          data.map((item, index) => (
+        {DATA && DATA.length > 0 ? (
+          DATA.map((item, index) => (
             <div className="box" key={index}>
               <div className="title" onClick={() => toggleSelect(index)}>
                 <h4>{item.question}</h4>
@@ -62,7 +62,7 @@ function Accordion() {
             </div>
           ))
         ) : (
-          <div>No Data Found</div>
+          <div>No DATA Found</div>
         )}
       </div>
     </div>

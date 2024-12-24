@@ -1,4 +1,4 @@
-const data = [
+const Data = [
   {
     id: 1,
     question: "What are accordion components?",
@@ -25,4 +25,4 @@ const data = [
   },
 ];
 
-export default data;
+export default Data;
