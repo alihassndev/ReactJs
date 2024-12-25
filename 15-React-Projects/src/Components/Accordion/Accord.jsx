@@ -15,7 +15,7 @@ function Accord() {
       );
     } else {
       setSelected(
-        (prevSelected) => (prevSelected === index ? [] : [index]) // Toggle for single selection
+        (prevSelected) => (prevSelected[0] === index ? [] : [index]) // Toggle for single selection
       );
     }
   };
