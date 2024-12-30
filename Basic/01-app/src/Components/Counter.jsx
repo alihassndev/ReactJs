@@ -3,6 +3,18 @@ import { useState } from "react";
 function Counter() {
   const [count, setCount] = useState(0);
 
+  // useEffect(() => {
+  //   console.log(`Counter Component is Mounting ${count} ...`);
+
+  //   return () => {
+  //     console.log(`Unmounting ......`);
+  //   };
+  // }, []);
+
+  // useEffect(() => {
+  //   console.log(`Counter Component is Mounting ${count} ...`);
+  // }, [count]);
+
   return (
     <>
       <div className="bg-white text-black p-5 rounded-2xl text-lg">
