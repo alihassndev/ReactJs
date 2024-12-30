@@ -7,10 +7,11 @@ function TodoList() {
         <h1 className="font-bold text-2xl">Todo</h1>
 
         <div className="w-full flex flex-col gap-3">
-          <TodoItem />
-          <TodoItem />
-          <TodoItem />
-          <TodoItem />
+          <TodoItem content="Brush" />
+          <TodoItem content="Eat" />
+          <TodoItem content="Code" />
+          <TodoItem content="Play" />
+          <TodoItem content="Sleep" />
         </div>
 
         <button className="bg-gray-300 w-full">Add Todo</button>
