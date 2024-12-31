@@ -17,8 +17,6 @@ function App() {
     getRandomUser().then((user) => setUser(user.results[0]));
   }, [clicked]);
 
-  console.log(userData);
-
   const toggle = () => {
     setClicked(!clicked);
   };
