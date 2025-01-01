@@ -1,25 +1,30 @@
+import { useState } from "react";
 import "./App.css";
-import Counter from "./Components/Counter";
-import { useContext } from "react";
-import { CounterContext } from "./Context/Counter";
+import Counter from "./Component/Counter";
+import { CounterContext } from "./Context/Context";
 
 function App() {
-  const counterState = useContext(CounterContext);
-
-  console.log(counterState);
+  const [counter, setCounter] = useState(0);
 
   return (
     <>
-      <div className="flex flex-col gap-10">
-        <h1>Count is 0</h1>
+      <CounterContext.Provider value={{ counter, setCounter }}>
+        <div className="flex flex-col gap-10">
+          <Counter />
 
-        <div className="flex flex-col gap-3">
-          <Counter />
-          <Counter />
-          <Counter />
-          <Counter />
+          <div className="flex flex-col gap-5">
+            <p>Count is {counter}</p>
+            <button
+              className="bg-white text-black"
+              onClick={() => {
+                setCounter((prev) => prev + 1);
+              }}
+            >
+              Increment
+            </button>
+          </div>
         </div>
-      </div>
+      </CounterContext.Provider>
     </>
   );
 }
